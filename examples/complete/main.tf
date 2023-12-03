@@ -11,6 +11,5 @@ module "network" {
 module "ecs_cluster" {
   source = "../../"
 
-  prefix           = local.prefix
-  ecs_cluster_name = "ccscshq"
+  ecs_cluster_name = "e0bf3324"
 }
