@@ -11,5 +11,6 @@ module "network" {
 module "ecs_cluster" {
   source = "../../"
 
-  ecs_cluster_name = "e0bf3324"
+  ecs_cluster_name            = "e0bf3324"
+  create_cloudwatch_log_group = true
 }
